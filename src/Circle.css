@@ -1,0 +1,27 @@
+/* Circle.css */
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: grey; /* Default color */
+    transition: background-color 0.3s ease;
+    margin: 10px;
+  }
+  
+  .circle.blue:hover {
+    background-color: blue; /* Hover color for the first circle */
+  }
+  
+  .circle.yellow:hover {
+    background-color: yellow; /* Hover color for the second circle */
+  }
+  
+  .circle.green:hover {
+    background-color: green; /* Hover color for the third circle */
+  }
+  
+  .circle.red:hover {
+    background-color: red; /* Hover color for the fourth circle */
+  }
+  
